@@ -1,0 +1,40 @@
+{
+  "name": "@cernitur/aeo-lint",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI linter for Answer Engine Optimization (AEO). Validates robots.txt AI crawlers, /llms.txt compliance, SSR density, and 5-dimension Schema.org @graph entity models.",
+  "main": "./bin/aeo-lint.js",
+  "bin": {
+    "aeo-lint": "./bin/aeo-lint.js"
+  },
+  "type": "module",
+  "keywords": [
+    "aeo",
+    "geo",
+    "seo",
+    "answer-engine-optimization",
+    "llms-txt",
+    "json-ld",
+    "schema",
+    "ai-crawlers",
+    "cernitur",
+    "perplexity",
+    "chatgpt",
+    "claude"
+  ],
+  "author": "Cernitur Technologies LLC <support@cernitur.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://cernitur.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cernitur/aeo-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cernitur/aeo-lint/issues"
+  },
+  "scripts": {
+    "test": "node bin/aeo-lint.js https://cernitur.com"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
